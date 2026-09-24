@@ -1,0 +1,27 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="ProductsApp.SiteMaster" %>
+<%@ Import Namespace="System" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Products App</title>
+    <link href="~/Content/Site.css" rel="stylesheet" runat="server" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="page-header">
+            <h1>Products App <small>(.NET Framework 4.8 / Web Forms)</small></h1>
+            <nav>
+                <a href="~/Default.aspx" runat="server">Product List</a> |
+                <a href="~/ProductCreate.aspx" runat="server">Add Product</a>
+            </nav>
+        </div>
+        <div class="page-body">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+        <div class="page-footer">
+            <p>Server rendered at <%: DateTime.Now.ToString("u") %></p>
+        </div>
+    </form>
+</body>
+</html>

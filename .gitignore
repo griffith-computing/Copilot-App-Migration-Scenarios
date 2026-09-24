@@ -1,0 +1,13 @@
+# Visual Studio / MSBuild
+bin/
+obj/
+*.user
+.vs/
+
+# NuGet
+**/packages/
+*.nupkg
+
+# SQL Server LocalDB
+*.mdf
+*.ldf
