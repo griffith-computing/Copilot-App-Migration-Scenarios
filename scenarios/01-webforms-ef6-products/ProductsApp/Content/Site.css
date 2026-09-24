@@ -1,0 +1,53 @@
+body {
+    font-family: Segoe UI, Arial, sans-serif;
+    margin: 0;
+    padding: 0 24px;
+    background-color: #f7f7f7;
+    color: #222;
+}
+
+.page-header {
+    border-bottom: 1px solid #ddd;
+    padding: 16px 0;
+}
+
+.page-header nav a {
+    margin-right: 8px;
+    color: #0067b8;
+    text-decoration: none;
+}
+
+table.product-grid {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.product-grid th,
+table.product-grid td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+table.product-grid th {
+    background-color: #eef2f7;
+}
+
+.page-footer {
+    color: #888;
+    font-size: 0.85em;
+    margin: 24px 0;
+}
+
+.form-row {
+    margin-bottom: 12px;
+}
+
+.form-row label {
+    display: inline-block;
+    width: 140px;
+}
+
+.validation-error {
+    color: #b00020;
+}
