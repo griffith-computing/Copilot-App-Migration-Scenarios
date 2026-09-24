@@ -11,3 +11,8 @@ obj/
 # SQL Server LocalDB
 *.mdf
 *.ldf
+
+# SQLite (EF Core sample databases)
+*.db
+*.db-shm
+*.db-wal
