@@ -4,6 +4,13 @@ Sample legacy applications used to demonstrate Copilot-assisted migrations
 to .NET 10. Each scenario is a small, self-contained app deliberately built
 with older patterns worth modernizing.
 
+## Copilot customization demo
+
+The repository includes a ready-to-run [customer demo of custom agents,
+skills, instructions, and prompts](docs/copilot-customization-demo.md).
+It uses Scenario 4 as a repeatable ASP.NET Core 6 to .NET 10 migration story
+across VS Code, Copilot CLI, and GitHub.com.
+
 ## Scenarios
 
 | # | Scenario | Source stack | Target |
