@@ -15,6 +15,9 @@ with older patterns worth modernizing.
 
 ## Containerization agent demo
 
+For a presenter walkthrough covering all four samples, see
+[Solution Engineer demo prompts](docs/containerization-demo-prompts.md).
+
 The reusable [Containerization agent](.github/agents/containerization.agent.md)
 demonstrates moving an application into a container with minimal application
 changes. This is separate from the .NET 10 modernization exercises above:
